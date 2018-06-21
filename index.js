@@ -20,7 +20,7 @@ function currentLine (array) {
   return "The line is currently empty.";
   else
   var i = 0;
-  while (i <= array.length)
+  while (i <= array.length){
   line.push((i + 1) + ". " + array[i]);
   i++;
  }
