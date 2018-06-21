@@ -10,8 +10,8 @@ function nowServing (array) {
   else
   var i = "Currently serving " + array[0] + ".";
   array.shift();
+  return i
   }
-  return 
 }
 
 function currentLine (array) {
