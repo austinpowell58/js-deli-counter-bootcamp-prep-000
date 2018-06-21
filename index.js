@@ -8,7 +8,7 @@ function nowServing (array) {
   {if (array.length === 0)
   return "There is nobody waiting to be served!";
   else 
-  katzDeli.pop();
+  array.pop();
   return "Currently serving " + array[0] + ".";
   }
 }
