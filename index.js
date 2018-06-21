@@ -9,7 +9,7 @@ function nowServing (array) {
   return "There is nobody waiting to be served!";
   else
   array.shift()
-  return "Currently serving " + array[0] + ".";
+  console.log ("Currently serving " + array[0] + ".");
   }
 }
 
