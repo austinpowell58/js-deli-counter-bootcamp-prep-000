@@ -12,6 +12,7 @@ function nowServing (array) {
   return "Currently serving " + array[0] + ".";
   }
 }
+
 function currentLine (array) {
   var line = [];
   if (array.length === 0)
