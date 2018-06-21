@@ -25,3 +25,4 @@ function currentLine (array) {
  }
  return "The line is currently: " + line;
 }
+
